@@ -1,0 +1,33 @@
+.CreateBarbecue {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    min-height: 70vh;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.CreateBarbecue--Panel {
+    width: 60vw;
+    min-width: 350px;
+    background-color: #FFF;
+    min-height: 300px;
+    margin-top: -5vh;
+    box-shadow: 0 0 10px 0 #88888869;
+    padding: 25px;
+}
+
+.Form--CreateBarbecue label {
+    font-weight: bold;
+}
+
+.Form--CreateBarbecue input::placeholder {
+    font-style: italic;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}

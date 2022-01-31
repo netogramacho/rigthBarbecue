@@ -1,0 +1,112 @@
+.Barbecue {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    min-height: 70vh;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.Barbecue--Report {
+    width: 60vw;
+    min-width: 350px;
+    background-color: #FFF;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5vh;
+    box-shadow: 0 0 10px 0 #88888869;
+    padding: 25px;
+}
+
+.Barbecue--Report-Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+}
+
+.Barbecue--Report-Title>div {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Barbecue--Report-TitleDate {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.Barbecue--Report-TitleName {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.Barbecue--Report-TitleGuests,
+.Barbecue--Report-TitleTotal {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.Barbecue--Report-Guests {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Barbecue--Report-GuestsLine {
+    border-bottom: 1px solid #E5C231;
+    display: flex;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.Barbecue--Report-GuestsLine>span {
+    margin: 0 15px;
+}
+
+.Barbecue--Report-GuestsLine>.Circle {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #998220;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Barbecue--Report-GuestsLine>.Circle:hover {
+    cursor: pointer;
+}
+
+.Barbecue--Report-GuestsLine>.Name {
+    flex: 1;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.Barbecue--Report-GuestsLine>.Money {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.Payed>.Circle {
+    background-color: #FFD836;
+    border: none;
+}
+
+.Payed>.Money {
+    text-decoration: line-through;
+}

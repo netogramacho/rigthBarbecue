@@ -1,0 +1,90 @@
+.Dashboard {
+    display: flex;
+    background-color: #FFF;
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    min-height: 70vh;
+    justify-content: center;
+}
+
+.Cards {
+    width: 100vw;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -5vh;
+}
+
+.Card--Barbecue {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0 30px;
+    transition: all 0.2s linear;
+}
+
+.Card--Barbecue:hover {
+    transform: translateY(-5px)!important;
+    cursor: pointer;
+}
+
+.Card--Barbecue-Content {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    height: 200px;
+    background-color: #FFF;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 10px 0 #88888869;
+    transition: all 0.2s linear;
+    padding: 10px;
+}
+
+.Card--Barbecue-Date {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.Card--Barbecue-Title {
+    flex: 2;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.Card--Barbecue-Info {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.Card--Barbecue-NewBarbecue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Card--Barbecue-NewBarbecue-Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: #FFD836;
+    border-radius: 50%;
+}
+
+.Card--Barbecue-NewBarbecue>h5 {
+    margin: 10px 0;
+    font-weight: 700;
+}

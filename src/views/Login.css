@@ -1,0 +1,29 @@
+.Login {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Title--Login {
+    flex: 1;
+    width: 100%;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.Form--Login {
+    flex: 5;
+    min-width: 30vw;
+    z-index: 10;
+}
+
+.Form--Login label {
+    font-weight: bold;
+}
+
+.Form--Login input::placeholder {
+    font-style: italic;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}

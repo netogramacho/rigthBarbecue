@@ -1,0 +1,22 @@
+.Content {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #FFD836;
+}
+
+.Background--Image {
+    background-image: url('../../images/bbq_pattern.png');
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    top: 0;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.Background--Image h1 {
+    font-weight: 700;
+    z-index: 20;
+}
